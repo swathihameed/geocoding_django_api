@@ -12,7 +12,7 @@ import googlemaps
 
 from django.conf import settings
 
-gmaps = googlemaps.Client(key= settings.gmap_API_KEY )
+gmaps = googlemaps.Client(key= settings.GMAP_API_KEY )
 
 
 

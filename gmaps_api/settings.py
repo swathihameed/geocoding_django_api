@@ -31,7 +31,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [os.environ['heroku_HOSTNAME']] if 'heroku_HOSTNAME' in os.environ else []
 
-gmap_API_KEY = os.environ.get('gmap_API_KEY', '')
+GMAP_API_KEY = os.environ.get('gmap_API_KEY', '')
 
 
 
