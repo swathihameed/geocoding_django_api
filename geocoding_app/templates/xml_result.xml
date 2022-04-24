@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <root>
+    <address>{{ address }}</address>
+    <coordinates>
+    
+        <lat>{{ out|get_dict_value:'lat' }}</lat>
+        <lng>{{ out|get_dict_value:'lng' }}</lng>
+    </coordinates>
+    </root>
