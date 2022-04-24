@@ -10,9 +10,9 @@ from django.template import loader
 from .forms import InputForm
 import googlemaps
 
-from django.confg.settings import gmap_API_KEY
+from django.conf import settings
 
-gmaps = googlemaps.Client(key= gmap_API_KEY )
+gmaps = googlemaps.Client(key= settings.gmap_API_KEY )
 
 
 
